@@ -1,0 +1,19 @@
+name: Nova feature
+description: Solicite um nova feature.
+title: "[feat]: "
+labels: ["enhacement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado pela sua sugestão
+  - type: dropdown
+    id: prioridade
+    attributes:
+      label: Prioridade
+      description: Defina a prioridade, quando menor o número maior a prioridade
+      options:
+        - 0
+        - 1
+        - 2
+        - 3
